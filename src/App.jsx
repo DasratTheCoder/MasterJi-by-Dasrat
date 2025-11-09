@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React from 'react'
+import WhiteIcon from "./icons/WhiteIcon.jsx";
+import "./App.css"
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <nav className='h-[69px] w-screen  flex justify-start items-center'>
+      <div id='my-box' className='border-r-[2px] border-dotted border-[#626262] border-b-[2px]  w-20 '></div>
+      <div id='bottom-div' className=' w-[90%]  border-r-[2px] border-dotted border-[#626262] border-b-[2px] items-center flex justify-between '>
+        <div className='text-white ml-9 '>
+          <p id='p-master' className='text-3xl'>Master<span>Ji</span></p>
+          
+        </div>
+        <div className='text-white mr-12 mt-3 flex items-center gap-3'>
+          <div className="icon">
+            <i className="fa-solid fa-circle-half-stroke text-white"></i>
+<WhiteIcon/>
+          </div>
+          <div className="btn">
+            <button className='bg-orange-400 h-9 w-28 rounded'>Get Started</button>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div id='lower-div' className='  border-dotted border-[#626262] border-b-[2px] w-20'>h</div>
+    </nav>
     </>
   )
 }
