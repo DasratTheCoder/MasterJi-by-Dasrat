@@ -3,7 +3,7 @@ import img from '../assets/hero_img.png'
 
 const Section1 = () => {
   return (
-    <div className="w-[98vw]  text-white  sm:px-8 md:px-12 lg:px-20 overflow-hidden">
+    <div className="w-[98vw] h-[88vh] text-white  sm:px-8 md:px-12 lg:px-20 overflow-hidden">
       {/* Hero Section */}
       <section className="flex flex-col-reverse md:flex-row justify-between items-center md:items-start md:pt-20 pt-10">
         
@@ -41,15 +41,15 @@ const Section1 = () => {
       <div className="flex flex-col sm:flex-row  items-center gap-8 sm:gap-16 mt-14 text-center">
         <div>
           <div className="text-3xl font-bold">1000+</div>
-          <span className="text-lg text-gray-300">Blogs Written</span>
+          <span className="text-lg font-semibold text-[#9f9fa1]">Blogs Written</span>
         </div>
         <div>
           <div className="text-3xl font-bold">500+</div>
-          <span className="text-lg text-gray-300">Projects Built</span>
+          <span className="text-lg font-semibold text-[#9f9fa1]">Projects Built</span>
         </div>
         <div>
           <div className="text-3xl font-bold">15+</div>
-          <span className="text-lg text-gray-300">Courses</span>
+          <span className="text-lg font-semibold text-[#9f9fa1]">Courses</span>
         </div>
       </div>
     </div>
