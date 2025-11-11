@@ -5,7 +5,7 @@ import WhiteIcon from "./WhiteIcon";
 const Navbar = () => {
   return (
     <>
-      <nav className='h-[69px] w-screen flex justify-start items-center sticky top-0 bg-black z-50'>
+      <nav className='h-[69px] w-[99vw] flex justify-start items-center sticky top-0 bg-black z-50'>
         <div id='my-box' className='border-r-[2px] border-dotted border-[#626262] border-b-[2px] w-20'></div>
         
         <div id='bottom-div' className='w-[90%] border-r-[2px] border-dotted border-[#626262] border-b-[2px] items-center flex justify-between'>
